@@ -29,7 +29,6 @@
   "devDependencies": {
     "@applint/spec": "^1.2.3",
     "@ice/app": "^3.4.0",
-    "@svgr/webpack": "^8.1.0",
     "@tauri-apps/cli": "^2",
     "@types/node": "^18.11.17",
     "@types/react": "^18.3.1",
