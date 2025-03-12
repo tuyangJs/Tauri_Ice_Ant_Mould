@@ -4,7 +4,7 @@
 
  <img src="https://github.com/user-attachments/assets/4ad19d23-c42b-40d9-855b-9953476fc870" alt="Screenshot 2" width="75%">
  
-本项目旨在提供一个高效、简洁的Tauri模板，并集成了主题系统和全局标题管理。
+一个高效、简洁的Tauri模板，并集成了主题系统和全局标题管理。
 它由 `Tauri2` + `ice` + `Ant Design` + `React`搭建而成。
 
 为了方便引入本地模块和资源文件，我们将 `@/` 重定向到了项目目录 `src` 目录下。
