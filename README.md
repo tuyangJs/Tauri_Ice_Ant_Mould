@@ -1,7 +1,8 @@
 # 项目介绍
 
 ## 介绍
- <img src="[https://github.com/user-attachments/assets/d5b06548-9aed-4219-832c-8f3c80ddcedd](https://github.com/user-attachments/assets/d5b06548-9aed-4219-832c-8f3c80ddcedd)" alt="Screenshot 2" width="45%">
+
+ <img src="https://github.com/user-attachments/assets/4ad19d23-c42b-40d9-855b-9953476fc870" alt="Screenshot 2" width="45%">
  
 本项目旨在提供一个高效、简洁的Tauri模板，并集成了主题系统和全局标题管理。
 它由 `Tauri2` + `ice` + `Ant Design` + `React`搭建而成。
