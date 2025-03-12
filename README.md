@@ -1,8 +1,10 @@
 # 项目介绍
 
 ## 介绍
-
+ <img src="[winset.png](https://github.com/user-attachments/assets/d5b06548-9aed-4219-832c-8f3c80ddcedd)" alt="Screenshot 2" width="45%">
+ 
 本项目旨在提供一个高效、简洁的Tauri模板，并集成了主题系统和全局标题管理。
+它由 `Tauri2` + `ice` + `Ant Design` + `React`搭建而成。
 
 为了方便引入本地模块和资源文件，我们将 `@/` 重定向到了项目目录 `src` 目录下。
 
@@ -17,8 +19,8 @@
 我们内置了标题全局同步系统，模块文件为 `@/mod/TitleChange`
 
 - 通过设置 `document.title` 属性即可修改全局标题。
-- 让窗口标题能够与页面内容同步更新。
-- 当前窗口标题由 `src/mod/Layout/Logo.tsx` 负责生成。
+- 让窗口标题能够与页面标题同步更新。
+- 当前页面标题由 `src/mod/Layout/Logo.tsx` 负责生成。
 
 ### 全局主题同步系统
 
