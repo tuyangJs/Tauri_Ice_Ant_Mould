@@ -1,0 +1,59 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  user-select: none;
+  text-rendering: optimizeLegibility;
+}
+
+.logo {
+  width: 26px;
+}
+
+.container {
+  margin: 0;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.TitleBn {
+  padding-inline: 8px !important
+}
+
+.HeaderAx {
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+.Hamburg {
+  left: 5px;
+  top: 6px;
+  z-index: 999;
+}
+
+.selector {
+  overflow: auto;
+  height: 100vh;
+  position: sticky;
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  scrollbar-width: thin;
+}
+
+.drag-region header {
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  backdrop-filter: saturate(180%) blur(16px);
+}
+
+
+.theme-switch .ant-segmented-item-label {
+  min-height: 24px !important;
+  line-height: 24px !important;
+  padding: 0 7px !important;
+}

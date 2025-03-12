@@ -1,0 +1,69 @@
+[
+  {
+    "id": "layout",
+    "file": "layout.tsx",
+    "componentName": "layout",
+    "layout": true,
+    "exports": [
+      "default"
+    ],
+    "children": [
+      {
+        "path": "demo/ProTable",
+        "id": "demo/ProTable",
+        "parentId": "layout",
+        "file": "demo/ProTable.tsx",
+        "componentName": "demo-protable",
+        "layout": false,
+        "exports": [
+          "default"
+        ]
+      },
+      {
+        "path": "demo/ProCard",
+        "id": "demo/ProCard",
+        "parentId": "layout",
+        "file": "demo/ProCard.tsx",
+        "componentName": "demo-procard",
+        "layout": false,
+        "exports": [
+          "default"
+        ]
+      },
+      {
+        "index": true,
+        "id": "/",
+        "parentId": "layout",
+        "file": "index/index.tsx",
+        "componentName": "index-index",
+        "layout": false,
+        "exports": [
+          "default"
+        ]
+      },
+      {
+        "path": "demo",
+        "index": true,
+        "id": "demo",
+        "parentId": "layout",
+        "file": "demo/index.tsx",
+        "componentName": "demo-index",
+        "layout": false,
+        "exports": [
+          "default"
+        ]
+      },
+      {
+        "path": "*",
+        "id": "*",
+        "parentId": "layout",
+        "file": "$.tsx",
+        "componentName": "$",
+        "layout": false,
+        "exports": [
+          "default"
+        ]
+      }
+    ]
+  }
+]
